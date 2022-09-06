@@ -4,6 +4,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .banner {
+    @apply bg-[url('/banner.svg')] bg-no-repeat w-full bg-cover bg-center h-full;
+  }
+
+  .banner02 {
+    @apply bg-[url('/banner02.svg')] bg-no-repeat w-full bg-cover bg-center h-full;
+  }
+
+  .banner03 {
+    @apply bg-[url('/banner03.svg')] bg-no-repeat w-full bg-cover bg-center h-full;
+  }
+
+  .banner04 {
+    @apply bg-[url('/banner04.svg')] bg-no-repeat w-full bg-cover bg-center h-full;
+  }
+}
+/* 
 .banner {
   background: url("../assets/banner.svg");
   background-size: cover;
@@ -39,7 +57,7 @@
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
-}
+} */
 
 .fadeLeftMini {
   animation: fadeLeftMini 1s;

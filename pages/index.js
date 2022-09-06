@@ -35,7 +35,7 @@ export default function Home() {
       <Download />
       <div className="px-4 py-2 flex justify-center items-center bg-primary flex-col text-center banner04">
         <p className={`${styles.pText} ${styles.whiteText}  `}>
-          Made with love by <span className="bold">Azad Sarkhanli</span>
+          Made by <span className="bold">Azad Sarkhanli</span>
         </p>
       </div>
     </>
